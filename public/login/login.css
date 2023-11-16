@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    border-radius: 8px;
+    background: radial-gradient(144.5% 81.53% at 25.55% 31.91%, #20135C 0%, #140739 92.82%);
+    box-shadow: 0px 15px 40px 0px rgba(0, 0, 0, 0.25);
+}
+
+form {
+    margin: 0 auto;
+    display: flex;
+    margin-top: 60px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 70px;
+    width: 500px;
+    height: 500px;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #1b0f50 0%, rgba(24, 36, 86, 0.804) 100%);
+    box-shadow: 0px 25px 25px 0px rgba(0, 3, 32, 0.79);
+}
+
+.form-title {
+    font-size: 2.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+form input {
+    border-radius: 8px;
+    border: none;
+    background: #2E3558;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    width: 350px;
+    height: 45px;
+    padding: 15px;
+}
+
+.btns {
+    
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.btns .submit {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background: linear-gradient(272deg, #3887FE 4.26%, #3BA0FF 51.37%, #5FB2FF 99.01%);
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.15);
+    width: 95px;
+    height: 32px;
+    border: none;
+}
+
+
+.btns .submit_up {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background: linear-gradient(272deg, #3887FE 4.26%, #3BA0FF 51.37%, #5FB2FF 99.01%);
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.15);
+    width: 95px;
+    height: 32px;
+    border: none;
+}
+
+.inp_container img {
+    width: 30px;
+    position: relative;
+    top: 40px;
+    left: 8px;
+}
+
+.a {
+    margin-top: 60px;
+}
